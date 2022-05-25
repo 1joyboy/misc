@@ -1,0 +1,1 @@
+openssl req -nodes -newkey rsa:2048 -keyout "$1.key" -out "$1.csr" -subj "/C=US/ST=CA/L=San Francisco/O=Databricks Inc./OU=Corporate Engineering/CN=$1"
